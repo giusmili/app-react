@@ -3,7 +3,7 @@ import React from "react";
 const Section = () => {
   return (
     <section>
-      <h2>Description</h2>
+      <h2>Description du projet</h2>
       <p>
         Apprendre à développeur en js In four days, at the latest, the 'Great
         Eastern' must reach New York harbour; therefore we might hope that

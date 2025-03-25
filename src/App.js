@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'; // Ajoute ces imports
 import Hello from "./components/Hello";
 import Section from "./components/Section";
 import Footer from "./components/Footer";
@@ -6,7 +7,9 @@ import "./App.css";
 
 const App = () => {
   return (
+    
     <div className="App-header">
+      {/* ajouter les routes */}
       <div className="logo">
         <img src={logo} className="App-logo" alt="logo" />
       </div>
