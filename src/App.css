@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.App-header header *{
+  line-height: 8rem;
+  text-align: center;
+}
+.App-header .logo{
+  text-align: center;
+}
+.App-header h2{
+  font-size: 2.2rem;
+  background-color: #42414d;
+  border-radius: .4rem;
+  padding: .3rem 0 0 .3rem;
+  
+}
+.App-header p{
+  padding: .5rem;
+  text-align: justify;
+}
+
+.App-header section{
+  width: 60rem;
+  margin: 0 auto;
+
+}
+.App-header footer *{
+  font-size: small;
+  line-height: 4rem;
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  color: white;
+} */
+.App-header {
+ 
+  
+  background-color: #282c34;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  font-size: calc(1.6rem - .2rem);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media  screen and (max-width: 80rem) {
+  .App-header section{
+    width: auto;
+    margin: 0 ;
+  
+  }
+  .App-header {
+    line-height: normal;
+    display: block;
+    grid-template-rows: auto 1fr auto;
+    font-size: calc(1.6rem - .2rem);
+    color: white;
+  }
+}
+  @media  screen and (orientation: landscape) {
+    .App-header section{
+      width: 80rem;
+      margin: 0 auto ;
+    
+    }
+  
+}

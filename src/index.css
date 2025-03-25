@@ -1,0 +1,16 @@
+html{
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font: 1.6rem sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+  letter-spacing: .1rem;
+}
+h1,h2,h3,p{
+  margin: 0;
+  font-weight: normal;
+}
