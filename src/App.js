@@ -15,7 +15,7 @@ const App = () => {
 <Router> {/* Enveloppe toute l'application dans Router */}
       <div className="App">
         <header className="header-primary">
-         <h1>🚀 Web developpement project</h1>
+         <h1>🚀</h1>
 
         {/* Navigation avec les liens */}
           <nav>
@@ -43,12 +43,7 @@ const App = () => {
       <div className="logo">
         <img src={logo} className="App-logo" alt="logo" />
       </div>
-     
-
-
-
-
-    {/*   <Hello />
+     {/*   <Hello />
       <Section /> */}
       <Footer />
     </div>
