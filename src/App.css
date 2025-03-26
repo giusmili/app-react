@@ -28,6 +28,9 @@
 .header-primary nav ul li:hover a{
   background-color: #282c34;
 }
+.active{
+  background-color: #282c34;
+}
 
 .App-logo {
   height: 40vmin;
