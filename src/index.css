@@ -1,7 +1,10 @@
 html{
   font-size: 62.5%;
 }
-
+a{
+  text-decoration: none;
+  color: #fff;
+}
 body {
   margin: 0;
   font: 1.6rem sans-serif;
@@ -13,4 +16,7 @@ body {
 h1,h2,h3,p{
   margin: 0;
   font-weight: normal;
+}
+ul,ol{
+  list-style-type: none;
 }

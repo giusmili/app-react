@@ -1,6 +1,33 @@
 .App {
   text-align: center;
 }
+.App .header-primary{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding:  0 2rem;
+  background-color: #222;
+  margin-bottom: 5rem;
+}
+.App .header-primary nav ul{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+ 
+}
+.header-primary nav ul li{
+  width: 10rem;
+  a{
+    display: block;
+    width: 100%;
+    transition: all .6s ease-in-out;
+  }
+}
+.header-primary nav ul li:hover a{
+  background-color: #282c34;
+}
 
 .App-logo {
   height: 40vmin;
