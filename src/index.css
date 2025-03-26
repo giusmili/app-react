@@ -20,3 +20,15 @@ h1,h2,h3,p{
 ul,ol{
   list-style-type: none;
 }
+button{
+  padding: 0;
+  background: none;
+  font-size: inherit;
+  color: #fff;
+  cursor: pointer;
+  width: max-content;
+  padding: 0 2rem;
+  border: solid .1rem #fff;
+  line-height: 2.8rem;
+  border-radius: .4rem;
+}
