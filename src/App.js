@@ -39,11 +39,11 @@ const App = () => {
       </div>
     </Router>
       
-      {/* ajouter les routes */}
+     
       <div className="logo">
         <img src={logo} className="App-logo" alt="logo" />
       </div>
-      {/* structure */}
+     
 
 
 

@@ -108,6 +108,12 @@
     margin: 0 ;
   
   }
+  .App .header-primary{
+    flex-direction: column;
+    h1{
+      font-size: large;
+    }
+  }
   .App-header {
     line-height: normal;
     display: block;
