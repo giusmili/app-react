@@ -1,12 +1,18 @@
 // src/components/Contact.js
-
 import React from 'react';
 
-function Contact() {
+let Contact = ()=>{
   return (
-    <header>
+  <main>
+    <section>
         <h1>👩‍🚀 Contact</h1>
-    </header>);
+        <p>
+          Take back control!
+        </p>
+    </section>
+   
+  </main>
+  );
 }
 
 export default Contact;

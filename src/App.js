@@ -13,7 +13,8 @@ const App = () => {
     <div className="App-header">
 
 
-<Router> {/* Enveloppe toute l'application dans Router */}
+<Router> 
+  {/* Enveloppe toute l'application dans Router */}
       <div className="App">
         <header className="header-primary">
          <h1>🚀</h1>
@@ -38,7 +39,7 @@ const App = () => {
         {/* Utilisation du composant Hello si nécessaire */}
      
       </div>
-    </Router>
+  </Router>
       
      
       <div className="logo">
